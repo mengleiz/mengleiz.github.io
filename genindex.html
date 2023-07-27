@@ -7,9 +7,8 @@
 
   <head>
     <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="generator" content="Docutils 0.19: https://docutils.sourceforge.io/" />
-
-    <title>NetworkGym: Revolutionizing Network AI Research and Development &#8212; NetworkGym Documentation</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Index &#8212; NetworkGym Documentation</title>
   
   
   
@@ -44,10 +43,9 @@
     <script src="_static/design-tabs.js"></script>
     <script src="https://unpkg.com/mermaid/dist/mermaid.min.js"></script>
     <script>mermaid.initialize({"startOnLoad": true})</script>
-    <script>DOCUMENTATION_OPTIONS.pagename = 'index';</script>
-    <link rel="index" title="Index" href="genindex.html" />
+    <script>DOCUMENTATION_OPTIONS.pagename = 'genindex';</script>
+    <link rel="index" title="Index" href="#" />
     <link rel="search" title="Search" href="search.html" />
-    <link rel="next" title="Motivation" href="content/motivation.html" />
   <meta name="viewport" content="width=device-width, initial-scale=1"/>
   <meta name="docsearch:language" content="en"/>
   </head>
@@ -113,7 +111,7 @@
         <div class="sidebar-primary-item">
   
 
-<a class="navbar-brand logo" href="#">
+<a class="navbar-brand logo" href="index.html">
   
   
   
@@ -218,54 +216,6 @@
 
 
 
-
-
-<div class="dropdown dropdown-download-buttons">
-  <button class="btn dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false" aria-label="Download this page">
-    <i class="fas fa-download"></i>
-  </button>
-  <ul class="dropdown-menu">
-      
-      
-      
-      <li><a href="_sources/index.md" target="_blank"
-   class="btn btn-sm btn-download-source-button dropdown-item"
-   title="Download source file"
-   data-bs-placement="left" data-bs-toggle="tooltip"
->
-  
-
-<span class="btn__icon-container">
-  <i class="fas fa-file"></i>
-  </span>
-<span class="btn__text-container">.md</span>
-</a>
-</li>
-      
-      
-      
-      
-      <li>
-<button onclick="window.print()"
-  class="btn btn-sm btn-download-pdf-button dropdown-item"
-  title="Print to PDF"
-  data-bs-placement="left" data-bs-toggle="tooltip"
->
-  
-
-<span class="btn__icon-container">
-  <i class="fas fa-file-pdf"></i>
-  </span>
-<span class="btn__text-container">.pdf</span>
-</button>
-</li>
-      
-  </ul>
-</div>
-
-
-
-
 <button onclick="toggleFullScreen()"
   class="btn btn-sm btn-fullscreen-button"
   title="Fullscreen mode"
@@ -297,9 +247,7 @@ document.write(`
   </button>
 `);
 </script>
-<label class="sidebar-toggle secondary-toggle btn btn-sm" for="__secondary"title="Toggle secondary sidebar" data-bs-placement="bottom" data-bs-toggle="tooltip">
-    <span class="fa-solid fa-list"></span>
-</label>
+
 </div></div>
       
     </div>
@@ -310,31 +258,11 @@ document.write(`
               
 
 <div id="jb-print-docs-body" class="onlyprint">
-    <h1>NetworkGym: Revolutionizing Network AI Research and Development</h1>
+    <h1></h1>
     <!-- Table of contents -->
     <div id="print-main-content">
         <div id="jb-print-toc">
             
-            <div>
-                <h2> Contents </h2>
-            </div>
-            <nav aria-label="Page">
-                <ul class="visible nav section-nav flex-column">
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#network-agent-options">Network Agent Options</a></li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#gymnasium-api">Gymnasium API</a></li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#key-components-of-networkgym">Key Components of NetworkGym</a><ul class="nav section-nav flex-column">
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#networkgym-why-divide">NetworkGym: Why Divide?</a></li>
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#networkgym-scope-and-limitations">NetworkGym: Scope and Limitations</a><ul class="nav section-nav flex-column">
-<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#in-scope">✔️ In-Scope</a></li>
-<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#out-of-scope">❌ Out-of-Scope</a><ul class="nav section-nav flex-column">
-</ul>
-</li>
-</ul>
-</li>
-</ul>
-</li>
-</ul>
-            </nav>
         </div>
     </div>
 </div>
@@ -344,74 +272,198 @@ document.write(`
 <div id="searchbox"></div>
                 <article class="bd-article" role="main">
                   
-  <section id="networkgym-revolutionizing-network-ai-research-and-development">
-<h1>NetworkGym: Revolutionizing Network AI Research and Development<a class="headerlink" href="#networkgym-revolutionizing-network-ai-research-and-development" title="Permalink to this heading">#</a></h1>
-<p>NetworkGym is an innovative Simulation-as-a-Service framework designed to transform Network AI Research and Development. At the core of NetworkGym lies the simplified representation of reinforcement learning known as the “agent-environment loop,” which facilitates seamless integration with various network agents.</p>
-<p><img alt="network_gym" src="_images/network_gym.png" /></p>
-<section id="network-agent-options">
-<h2>Network Agent Options<a class="headerlink" href="#network-agent-options" title="Permalink to this heading">#</a></h2>
-<p>NetworkGym offers four types of network agents, each serving a specific purpose when interacting with NetworkGym Environments:</p>
-<ul class="simple">
-<li><p><strong>System default agent</strong>: By sending an “empty” action to the environment, this agent enables the collection of data for offline training purposes.</p></li>
-<li><p><strong>Custom algorithm agent</strong>: A flexible option that allows users to define their own specialized agents using the demo code.</p></li>
-<li><p><strong>Stable-Baselines3 network agent</strong>: A powerful RL agent with advanced stability and reliability features.</p></li>
-<li><p><strong>CleanRL network agent</strong> <em>(Link to be provided later)</em>: An efficient and clean RL agent option for custom algorithms.</p></li>
-</ul>
-<p>We have included additional information on how to train the agent in the <a class="reference internal" href="tutorials/training_agents.html"><span class="std std-doc">Training Agents</span></a> tutorial. This tutorial provides detailed guidance and instructions for effectively training your agent using various network agents offered by NetworkGym.</p>
-</section>
-<section id="gymnasium-api">
-<h2>Gymnasium API<a class="headerlink" href="#gymnasium-api" title="Permalink to this heading">#</a></h2>
-<p>The interaction between the network agent and the environment is facilitated through the standard <a class="reference external" href="https://gymnasium.farama.org/">Gymnasium</a> based action and observation space API.</p>
-</section>
-<section id="key-components-of-networkgym">
-<h2>Key Components of NetworkGym<a class="headerlink" href="#key-components-of-networkgym" title="Permalink to this heading">#</a></h2>
-<p>NetworkGym consists of three essential components, each playing a crucial role in the framework:</p>
-<ul class="simple">
-<li><p><strong>NetworkGym Client</strong>: This Python-based interface provides a Gymnasium-based API that enables the network agent to remotely interact with the NetworkGym Environment. Additionally, it offers its own NetworkGym API to configure the parameters of the NetworkGym Environment.</p></li>
-<li><p><strong>NetworkGym Server</strong>: The server acts as the intermediary, managing connections between Clients and Environments.</p></li>
-<li><p><strong>NetworkGym Environment</strong>:  Leveraging open-source network simulation tools such as <a class="reference external" href="https://www.nsnam.org/">ns-3</a>, NetworkGym enhances these tools with customized capabilities and use-cases, such as Traffic Steering, Network Slicing, Distributed Compute, Dynamic QoS, Energy Saving, and more. This enables comprehensive and realistic network simulations to support cutting-edge research and development in the field of Network AI.</p></li>
-</ul>
-<p>For more comprehensive information about the key components of NetworkGym, please refer to the <a class="reference internal" href="content/overview.html"><span class="std std-doc">Overview</span></a> page.</p>
-<section id="networkgym-why-divide">
-<h3>NetworkGym: Why Divide?<a class="headerlink" href="#networkgym-why-divide" title="Permalink to this heading">#</a></h3>
-<p>There are several compelling reasons for dividing NetworkGym into three distinct components:</p>
-<ul class="simple">
-<li><p><strong>Language and Platform Flexibility</strong>: Separating the Client and Environment allows for the use of different programming languages. For instance, a Python-based agent can seamlessly interact with a C++(ns-3) based simulation environment. This flexibility enables the integration of diverse tools and technologies.</p></li>
-<li><p><strong>Decoupling Deployment</strong>: By decoupling the Client and Environment, they can be deployed on separate machines or platforms. This means an agent deployed on a machine optimized for ML workloads can efficiently interact with an Environment deployed on a machine optimized for simulation workloads. This separation optimizes the performance and resource allocation of each component.</p></li>
-</ul>
-</section>
-<section id="networkgym-scope-and-limitations">
-<h3>NetworkGym: Scope and Limitations<a class="headerlink" href="#networkgym-scope-and-limitations" title="Permalink to this heading">#</a></h3>
-<section id="in-scope">
-<h4>✔️ In-Scope<a class="headerlink" href="#in-scope" title="Permalink to this heading">#</a></h4>
-<ul class="simple">
-<li><p>NetworkGym focuses on the development of <strong>open and reference</strong> AI models/algorithms tailored for <strong>networking research (Layer 2 &amp; above)</strong>.</p></li>
-<li><p>It also involves the development of <strong>abstract models</strong>, such as channel, compute, power, etc., simulating aspects of the physical world and systems.</p></li>
-<li><p>NetworkGym endeavors to create <strong>full-stack models</strong> that can effectively simulate <strong>end-to-end (Access/Edge/Cloud)</strong> network operations with high fidelity.</p></li>
-</ul>
-</section>
-<section id="out-of-scope">
-<h4>❌ Out-of-Scope<a class="headerlink" href="#out-of-scope" title="Permalink to this heading">#</a></h4>
-<ul class="simple">
-<li><p>NetworkGym does not involve the development of <strong>proprietary</strong> AI algorithms or models.</p></li>
-<li><p>Develop AI <strong>application or software</strong>, e.g. xApp/rApp, etc., based on controller architecture, e.g. O-RAN RIC, etc.</p></li>
-<li><p>It is not centered around creating AI <strong>applications or software</strong>, like xApp/rApp, based on specific controller architectures (e.g., O-RAN RIC).</p></li>
-<li><p>NetworkGym is not designed to create a <strong>“Digital Twin”</strong> to simulate the physical world with high fidelity.</p></li>
-</ul>
-<div class="toctree-wrapper compound">
+
+<h1 id="index">Index</h1>
+
+<div class="genindex-jumpbox">
+ <a href="#A"><strong>A</strong></a>
+ | <a href="#C"><strong>C</strong></a>
+ | <a href="#D"><strong>D</strong></a>
+ | <a href="#E"><strong>E</strong></a>
+ | <a href="#G"><strong>G</strong></a>
+ | <a href="#M"><strong>M</strong></a>
+ | <a href="#N"><strong>N</strong></a>
+ | <a href="#O"><strong>O</strong></a>
+ | <a href="#P"><strong>P</strong></a>
+ | <a href="#R"><strong>R</strong></a>
+ | <a href="#S"><strong>S</strong></a>
+ | <a href="#W"><strong>W</strong></a>
+ 
 </div>
-<div class="toctree-wrapper compound">
-</div>
-<div class="toctree-wrapper compound">
-</div>
-<div class="toctree-wrapper compound">
-</div>
-<div class="toctree-wrapper compound">
-</div>
-</section>
-</section>
-</section>
-</section>
+<h2 id="A">A</h2>
+<table style="width: 100%" class="indextable genindextable"><tr>
+  <td style="width: 33%; vertical-align: top;"><ul>
+      <li><a href="api/network_gym_client/env.html#network_gym_client.Env.action_space">action_space (network_gym_client.Env attribute)</a>
+</li>
+      <li><a href="api/network_gym_client/adapter.html#network_gym_client.Adapter">Adapter (class in network_gym_client)</a>
+
+      <ul>
+        <li><a href="api/network_gym_client/adapter/network_slicing.html#network_gym_client.envs.network_slicing.Adapter">(class in network_gym_client.envs.network_slicing)</a>
+</li>
+        <li><a href="api/network_gym_client/adapter/nqos_split.html#network_gym_client.envs.nqos_split.Adapter">(class in network_gym_client.envs.nqos_split)</a>
+</li>
+        <li><a href="api/network_gym_client/adapter/qos_steer.html#network_gym_client.envs.qos_steer.Adapter">(class in network_gym_client.envs.qos_steer)</a>
+</li>
+      </ul></li>
+  </ul></td>
+  <td style="width: 33%; vertical-align: top;"><ul>
+      <li><a href="api/network_gym_client/env.html#network_gym_client.Env.adapter">adapter (network_gym_client.Env attribute)</a>
+</li>
+  </ul></td>
+</tr></table>
+
+<h2 id="C">C</h2>
+<table style="width: 100%" class="indextable genindextable"><tr>
+  <td style="width: 33%; vertical-align: top;"><ul>
+      <li><a href="api/network_gym_client/adapter/qos_steer.html#network_gym_client.envs.qos_steer.Adapter.calculate_wifi_qos_user_num">calculate_wifi_qos_user_num() (in module network_gym_client.envs.qos_steer.Adapter)</a>
+</li>
+  </ul></td>
+  <td style="width: 33%; vertical-align: top;"><ul>
+      <li><a href="api/network_gym_client/northbound_interface.html#network_gym_client.NorthboundInterface.connect">connect() (in module network_gym_client.NorthboundInterface)</a>
+</li>
+  </ul></td>
+</tr></table>
+
+<h2 id="D">D</h2>
+<table style="width: 100%" class="indextable genindextable"><tr>
+  <td style="width: 33%; vertical-align: top;"><ul>
+      <li><a href="api/network_gym_client/adapter.html#network_gym_client.Adapter.df_to_dict">df_to_dict() (in module network_gym_client.Adapter)</a>
+</li>
+  </ul></td>
+</tr></table>
+
+<h2 id="E">E</h2>
+<table style="width: 100%" class="indextable genindextable"><tr>
+  <td style="width: 33%; vertical-align: top;"><ul>
+      <li><a href="api/network_gym_client/env.html#network_gym_client.Env">Env (class in network_gym_client)</a>
+</li>
+  </ul></td>
+</tr></table>
+
+<h2 id="G">G</h2>
+<table style="width: 100%" class="indextable genindextable"><tr>
+  <td style="width: 33%; vertical-align: top;"><ul>
+      <li><a href="api/network_gym_client/adapter/network_slicing.html#network_gym_client.envs.network_slicing.Adapter.get_action_space">get_action_space() (in module network_gym_client.envs.network_slicing.Adapter)</a>
+
+      <ul>
+        <li><a href="api/network_gym_client/adapter/nqos_split.html#network_gym_client.envs.nqos_split.Adapter.get_action_space">(in module network_gym_client.envs.nqos_split.Adapter)</a>
+</li>
+        <li><a href="api/network_gym_client/adapter/qos_steer.html#network_gym_client.envs.qos_steer.Adapter.get_action_space">(in module network_gym_client.envs.qos_steer.Adapter)</a>
+</li>
+      </ul></li>
+  </ul></td>
+  <td style="width: 33%; vertical-align: top;"><ul>
+      <li><a href="api/network_gym_client/adapter/network_slicing.html#network_gym_client.envs.network_slicing.Adapter.get_observation_space">get_observation_space() (in module network_gym_client.envs.network_slicing.Adapter)</a>
+
+      <ul>
+        <li><a href="api/network_gym_client/adapter/nqos_split.html#network_gym_client.envs.nqos_split.Adapter.get_observation_space">(in module network_gym_client.envs.nqos_split.Adapter)</a>
+</li>
+        <li><a href="api/network_gym_client/adapter/qos_steer.html#network_gym_client.envs.qos_steer.Adapter.get_observation_space">(in module network_gym_client.envs.qos_steer.Adapter)</a>
+</li>
+      </ul></li>
+      <li><a href="api/network_gym_client/adapter/network_slicing.html#network_gym_client.envs.network_slicing.Adapter.get_rbg_size">get_rbg_size() (in module network_gym_client.envs.network_slicing.Adapter)</a>
+</li>
+  </ul></td>
+</tr></table>
+
+<h2 id="M">M</h2>
+<table style="width: 100%" class="indextable genindextable"><tr>
+  <td style="width: 33%; vertical-align: top;"><ul>
+      <li><a href="api/network_gym_client/northbound_interface.html#network_gym_client.MeasurementReport">MeasurementReport (class in network_gym_client)</a>
+</li>
+  </ul></td>
+</tr></table>
+
+<h2 id="N">N</h2>
+<table style="width: 100%" class="indextable genindextable"><tr>
+  <td style="width: 33%; vertical-align: top;"><ul>
+      <li><a href="api/network_gym_client/adapter/nqos_split.html#network_gym_client.envs.nqos_split.Adapter.netowrk_util">netowrk_util() (in module network_gym_client.envs.nqos_split.Adapter)</a>
+</li>
+  </ul></td>
+  <td style="width: 33%; vertical-align: top;"><ul>
+      <li><a href="api/network_gym_client/env.html#network_gym_client.Env.northbound_interface_client">northbound_interface_client (network_gym_client.Env attribute)</a>
+</li>
+      <li><a href="api/network_gym_client/northbound_interface.html#network_gym_client.NorthboundInterface">NorthboundInterface (class in network_gym_client)</a>
+</li>
+  </ul></td>
+</tr></table>
+
+<h2 id="O">O</h2>
+<table style="width: 100%" class="indextable genindextable"><tr>
+  <td style="width: 33%; vertical-align: top;"><ul>
+      <li><a href="api/network_gym_client/env.html#network_gym_client.Env.observation_space">observation_space (network_gym_client.Env attribute)</a>
+</li>
+  </ul></td>
+</tr></table>
+
+<h2 id="P">P</h2>
+<table style="width: 100%" class="indextable genindextable"><tr>
+  <td style="width: 33%; vertical-align: top;"><ul>
+      <li><a href="api/network_gym_client/adapter/network_slicing.html#network_gym_client.envs.network_slicing.Adapter.prepare_observation">prepare_observation() (in module network_gym_client.envs.network_slicing.Adapter)</a>
+
+      <ul>
+        <li><a href="api/network_gym_client/adapter/nqos_split.html#network_gym_client.envs.nqos_split.Adapter.prepare_observation">(in module network_gym_client.envs.nqos_split.Adapter)</a>
+</li>
+        <li><a href="api/network_gym_client/adapter/qos_steer.html#network_gym_client.envs.qos_steer.Adapter.prepare_observation">(in module network_gym_client.envs.qos_steer.Adapter)</a>
+</li>
+      </ul></li>
+      <li><a href="api/network_gym_client/adapter/network_slicing.html#network_gym_client.envs.network_slicing.Adapter.prepare_policy">prepare_policy() (in module network_gym_client.envs.network_slicing.Adapter)</a>
+
+      <ul>
+        <li><a href="api/network_gym_client/adapter/nqos_split.html#network_gym_client.envs.nqos_split.Adapter.prepare_policy">(in module network_gym_client.envs.nqos_split.Adapter)</a>
+</li>
+        <li><a href="api/network_gym_client/adapter/qos_steer.html#network_gym_client.envs.qos_steer.Adapter.prepare_policy">(in module network_gym_client.envs.qos_steer.Adapter)</a>
+</li>
+      </ul></li>
+  </ul></td>
+  <td style="width: 33%; vertical-align: top;"><ul>
+      <li><a href="api/network_gym_client/adapter/network_slicing.html#network_gym_client.envs.network_slicing.Adapter.prepare_reward">prepare_reward() (in module network_gym_client.envs.network_slicing.Adapter)</a>
+
+      <ul>
+        <li><a href="api/network_gym_client/adapter/nqos_split.html#network_gym_client.envs.nqos_split.Adapter.prepare_reward">(in module network_gym_client.envs.nqos_split.Adapter)</a>
+</li>
+        <li><a href="api/network_gym_client/adapter/qos_steer.html#network_gym_client.envs.qos_steer.Adapter.prepare_reward">(in module network_gym_client.envs.qos_steer.Adapter)</a>
+</li>
+      </ul></li>
+      <li><a href="api/network_gym_client/northbound_interface.html#network_gym_client.NorthboundInterface.process_measurement">process_measurement() (in module network_gym_client.NorthboundInterface)</a>
+</li>
+  </ul></td>
+</tr></table>
+
+<h2 id="R">R</h2>
+<table style="width: 100%" class="indextable genindextable"><tr>
+  <td style="width: 33%; vertical-align: top;"><ul>
+      <li><a href="api/network_gym_client/northbound_interface.html#network_gym_client.NorthboundInterface.recv">recv() (in module network_gym_client.NorthboundInterface)</a>
+</li>
+  </ul></td>
+  <td style="width: 33%; vertical-align: top;"><ul>
+      <li><a href="api/network_gym_client/env.html#network_gym_client.Env.reset">reset() (in module network_gym_client.Env)</a>
+</li>
+  </ul></td>
+</tr></table>
+
+<h2 id="S">S</h2>
+<table style="width: 100%" class="indextable genindextable"><tr>
+  <td style="width: 33%; vertical-align: top;"><ul>
+      <li><a href="api/network_gym_client/northbound_interface.html#network_gym_client.NorthboundInterface.send">send() (in module network_gym_client.NorthboundInterface)</a>
+</li>
+  </ul></td>
+  <td style="width: 33%; vertical-align: top;"><ul>
+      <li><a href="api/network_gym_client/adapter.html#network_gym_client.Adapter.set_config">set_config() (in module network_gym_client.Adapter)</a>
+</li>
+      <li><a href="api/network_gym_client/env.html#network_gym_client.Env.step">step() (in module network_gym_client.Env)</a>
+</li>
+  </ul></td>
+</tr></table>
+
+<h2 id="W">W</h2>
+<table style="width: 100%" class="indextable genindextable"><tr>
+  <td style="width: 33%; vertical-align: top;"><ul>
+      <li><a href="api/network_gym_client/adapter.html#network_gym_client.Adapter.wandb_log">wandb_log() (in module network_gym_client.Adapter)</a>
+</li>
+  </ul></td>
+</tr></table>
+
 
 
                 </article>
@@ -425,15 +477,6 @@ document.write(`
   
     <div class="footer-article-item"><!-- Previous / next buttons -->
 <div class="prev-next-area">
-    <a class="right-next"
-       href="content/motivation.html"
-       title="next page">
-      <div class="prev-next-info">
-        <p class="prev-next-subtitle">next</p>
-        <p class="prev-next-title">Motivation</p>
-      </div>
-      <i class="fa-solid fa-angle-right"></i>
-    </a>
 </div></div>
   
 </div>
@@ -443,32 +486,6 @@ document.write(`
             </div>
             
             
-              
-                <div class="bd-sidebar-secondary bd-toc"><div class="sidebar-secondary-items sidebar-secondary__inner">
-
-  <div class="sidebar-secondary-item">
-  <div class="page-toc tocsection onthispage">
-    <i class="fa-solid fa-list"></i> Contents
-  </div>
-  <nav class="bd-toc-nav page-toc">
-    <ul class="visible nav section-nav flex-column">
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#network-agent-options">Network Agent Options</a></li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#gymnasium-api">Gymnasium API</a></li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#key-components-of-networkgym">Key Components of NetworkGym</a><ul class="nav section-nav flex-column">
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#networkgym-why-divide">NetworkGym: Why Divide?</a></li>
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#networkgym-scope-and-limitations">NetworkGym: Scope and Limitations</a><ul class="nav section-nav flex-column">
-<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#in-scope">✔️ In-Scope</a></li>
-<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#out-of-scope">❌ Out-of-Scope</a><ul class="nav section-nav flex-column">
-</ul>
-</li>
-</ul>
-</li>
-</ul>
-</li>
-</ul>
-  </nav></div>
-
-</div></div>
               
             
           </div>
